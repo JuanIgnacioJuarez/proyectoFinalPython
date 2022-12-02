@@ -27,7 +27,8 @@ class PPT:
                 print("Computadora le gana a Usuario ya que", jugador_2, "le gana a", jugador_1)
                 return "2"
 
-            elif (jugador_1 == "piedra" or jugador_1 == "papel" or jugador_1 == "tijera") and jugador_1 == jugador_2:
+            elif ((jugador_1 == "piedra" or jugador_1 == "papel" or jugador_1 == "tijera") 
+                and jugador_1 == jugador_2):
                 print("Usuario empata con Computadora ya que", jugador_1, "empata con", jugador_2)
                 return "empate"
             else:
