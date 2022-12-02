@@ -28,7 +28,7 @@ while opc != 5:
         elif opc == 3:
             juego = Dados.dados()
             juego.jugar()
-        else:
+        elif opc == 4:
             juego = Grafica.graf()
             juego.jugar()
         

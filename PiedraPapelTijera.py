@@ -43,7 +43,7 @@ class PPT:
                     break
 
                 print("Por favor ingrese una jugada valida.")
-                jugada = input("Ingrese piedra/papel/tijera: ")
+                jugada = input("Ingrese piedra/papel/tijera. Si desea salir escriba 'salir': ")
 
             return jugada
 
@@ -80,12 +80,12 @@ class PPT:
                 rondas = rondas + 1
 
                 if ganador == "1":
-                    victorias_usuario = victorias_usuario + 1
+                    victorias_usuario += 1
                 elif ganador == "2":
-                    victorias_computadora = victorias_computadora + 1
+                    victorias_computadora += 1
                 elif ganador == "empate":
-                    empates = empates + 1
+                    empates += 1
 
             imprimir_marcador()
 
-        print("Juego finalizado")
+        print("Juego finalizado.")
