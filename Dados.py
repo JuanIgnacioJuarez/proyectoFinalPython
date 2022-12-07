@@ -52,7 +52,7 @@ class dados:
             print("Victorias usuario:", usuario)
             print("Victorias computadora:", computadora)
             print("=================================\n")
-            ganador = input("Si desea salir ingrese 'salir', de lo contrarop ingrese 'seguir': ")
+            ganador = input("Si desea salir ingrese 'salir', de lo contrario ingrese 'seguir': ")
             return ganador
 
         ganador = "seguir"

@@ -5,7 +5,7 @@ import Grafica
 
 nombre = input("Ingrese su nombre: ")
 
-print(f"Hola {nombre}, bienvenido.")
+print(f"Hola {nombre}, bienvenido. Elija a que juego quiere jugar:")
 
 opc = 1
 
@@ -13,7 +13,7 @@ while opc != 5:
     print("1. Juego de Piedra Papel o Tijera.")
     print("2. Juego de adivinar el número.")
     print("3. Juego de adivinar la suma de dos dados.")
-    print("4. Ingresar una función para luego ser graficada.")
+    print("4. Gráfico de notas.")
     print("5. Salir.")
     opc = int(input("Ingrese el número de opción de lo que desee hacer: "))
     if opc < 1 or opc > 5:
